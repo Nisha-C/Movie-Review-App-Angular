@@ -1,0 +1,44 @@
+/* .card-body{ */
+    /* background-color: #132344; */
+    /* background-image: url('/assets/images/collage11.jpg');
+    background-image:no-repeat;
+    background-size: cover;  */
+    /* filter:brightness(80%); */
+/* } */
+
+#body{
+    background-image: url('/assets/images/collage7.jpg');
+    background-size: cover; 
+}
+
+#remember{
+    color : white
+}
+
+#sign-in{
+    margin-top:40px;
+    margin-bottom:40px;
+
+}
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.8) ;
+    }
+input:focus{
+        outline: 0 0 0 0  ;
+        box-shadow: 0 0 0 0 ;
+        
+}
+.login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+.card-header h3{
+    color:white
+}
+.links{
+    color: white;
+    }

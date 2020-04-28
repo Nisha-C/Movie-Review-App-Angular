@@ -1,0 +1,47 @@
+
+.card-deck{
+
+    background-color:#182B54;
+    width:1263px;
+  }
+  
+  #movie{
+  
+    box-shadow: 5px 10px 8px black;
+    background-color:#0F1C34;
+    color:white;
+    width:570px;
+    height:347px;
+    margin-left:15px;  
+  }
+  
+  #greeting{
+  
+    background-color: #182B54;
+    color:white;
+    text-align: center;
+  }
+    
+  .card{
+    margin-bottom: 10px;
+  }
+  
+  #movie-img{
+    float: left;
+  }
+  
+  #movie-details{
+    float: left;
+  }
+  
+  #summary{
+    font-size: small;
+  } 
+   
+  .scroll{
+    
+    max-height: 300px;
+    overflow-y: auto;
+      
+  }
+  

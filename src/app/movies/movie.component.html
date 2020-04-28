@@ -1,0 +1,50 @@
+
+<!-- Greeting the user-->
+<div id="greeting" class="card-header">
+    <h2>
+        {{"Welcome Back "+userName+" !" | titlecase}}
+    </h2>
+    <p>{{message}}</p>
+</div>
+
+<!--Movie deck -->
+
+<div class="card-deck">
+    <div *ngFor="let movie of movies; let i=index">
+        <div class="container">
+            <div class="card" id="movie">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img [src]="movie.img" [style.width.px]="movieImgWidth">
+                    </div>
+                    <div class="col-md-8 scroll">
+                        <div class="card-body" id="movieText">
+                            <!-- <div class="panel panel-default"> -->
+                                <h5 class="card-title">{{movie.name}}</h5>
+                                <p><i class="title">Rating:</i>
+                                    {{movie.rating}}
+                                </p>
+                                <!--Award image if movie has won any-->
+                                <div *ngIf=movie.award><i class="title">Award:</i>
+                                    <img [src]="movie.award" [style.width.px]="imageWidth"
+                                    [style.margin.px]="imageMargin">
+                                </div>
+                                <div *ngIf=!movie.award>
+                                    <i class="title">Award:</i>None
+                                </div>
+                                <br/>
+                                <p><i class="title">Genre:</i>
+                                    {{movie.category}}
+                                </p>
+                                <p><i class="title">Cast:</i>
+                                    {{movie.actor}}
+                                </p>
+                                <p id="summary"> <i class="title">Plot Summary:</i>{{movie.description}}</p>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+.navbar{
+    
+    background-color: #132344;
+
+} 
+#filter{
+    color:#00B5E9;
+    font-weight: bold;
+    margin-left: 300px; 
+
+}
+.nav-link{
+    color:#00B5E9;
+    
+    
+}
+
+.nav-item{
+    margin-left:65px;
+    font-weight: bold;
+} 

@@ -1,0 +1,28 @@
+
+
+<nav class="navbar navbar-expand-sm">
+    
+    <ul class="navbar-nav">
+        
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Watchlist</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Now Running</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Trailers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Help</a>
+      </li>
+    
+      <li  id="filter"><label for="filter">Filter by:{{listFilter}}</label>
+            <input name="filter" type="text" class="form-control"
+                [(ngModel)]="listFilter">
+        </li>    
+    </ul>
+  </nav>
