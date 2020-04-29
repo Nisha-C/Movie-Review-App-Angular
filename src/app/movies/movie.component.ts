@@ -22,7 +22,6 @@ export class MovieComponent
     message : string = "RateFlix.com is your one-stop destination for movie info and reviews. Now, grab some popcorn and enjoy!";
     imageWidth : number=20;
     imageMargin : number=2;
-    // showDeck : boolean = true;
     movies:IMovie[] = [];
     constructor(private movieService:MovieService){}
 

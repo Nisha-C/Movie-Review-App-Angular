@@ -1,10 +1,3 @@
-/* .card-body{ */
-    /* background-color: #132344; */
-    /* background-image: url('/assets/images/collage11.jpg');
-    background-image:no-repeat;
-    background-size: cover;  */
-    /* filter:brightness(80%); */
-/* } */
 
 #body{
     background-image: url('/assets/images/collage7.jpg');
@@ -26,7 +19,7 @@
     margin-bottom: auto;
     width: 400px;
     background-color: rgba(0,0,0,0.8) ;
-    }
+}
 input:focus{
         outline: 0 0 0 0  ;
         box-shadow: 0 0 0 0 ;
@@ -35,10 +28,10 @@ input:focus{
 .login_btn:hover{
     color: black;
     background-color: white;
-    }
+}
 .card-header h3{
     color:white
 }
 .links{
     color: white;
-    }
+}

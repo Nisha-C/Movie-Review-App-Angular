@@ -11,6 +11,6 @@ import {Component} from '@angular/core';
 
 export class FooterComponent{
 
-    footerTitle:string = "1990-2020 by Rate Flix Coporation"
-    test:string = '';
+    footerTitle:string = "1990-2020 by Rate Flix Coporation";
+    
 }

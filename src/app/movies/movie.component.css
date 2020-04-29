@@ -2,10 +2,10 @@
 .card-deck{
 
     background-color:#182B54;
-    width:1263px;
-  }
+    width:1273px;
+}
   
-  #movie{
+#movie{
   
     box-shadow: 5px 10px 8px black;
     background-color:#0F1C34;
@@ -13,35 +13,35 @@
     width:570px;
     height:347px;
     margin-left:15px;  
-  }
+}
   
-  #greeting{
+#greeting{
   
     background-color: #182B54;
     color:white;
     text-align: center;
-  }
+}
     
-  .card{
+.card{
     margin-bottom: 10px;
-  }
+}
   
-  #movie-img{
+#movie-img{
     float: left;
-  }
+}
   
-  #movie-details{
+#movie-details{
     float: left;
-  }
+}
   
-  #summary{
+#summary{
     font-size: small;
-  } 
+} 
    
-  .scroll{
+.scroll{
     
     max-height: 300px;
     overflow-y: auto;
       
-  }
+}
   
