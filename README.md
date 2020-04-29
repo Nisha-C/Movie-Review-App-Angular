@@ -1,5 +1,6 @@
 # Movie-Review-App-Angular
  This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.10.
+ The name and other details are created for educational purpose only.
  
  <img src="src/assets/images/outputScreenshot.png">
 
